@@ -18,7 +18,7 @@ const Sidenav = () => {
   ];
 
   return (
-    <Stack justifyContent="space-between" boxShadow="lg" maxWidth="16rem" h="100vh">
+    <Stack justifyContent="space-between" boxShadow="lg" w="16rem" h="100vh">
       <Box>
         <Heading as="h1" fontSize="20px" pt="3.5rem" textAlign="center">
           @CRYPTO CURRENCY
