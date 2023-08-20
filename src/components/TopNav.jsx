@@ -16,7 +16,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 
 const TopNav = ({ title, onOpen }) => {
   return (
-    <Box px="4">
+    <Box px="4" bg="white">
       <HStack maxW="90rem" mx="auto" h="16" justify="space-between">
         <Icon as={FaBars} onClick={onOpen} display={{
           base:"block",

@@ -18,7 +18,13 @@ const Sidenav = () => {
   ];
 
   return (
-    <Stack justifyContent="space-between" boxShadow={{base:"none", lg: "lg"}} w={{ base: "full", lg:"16rem"}} h="100vh">
+    <Stack
+      justifyContent="space-between"
+      // boxShadow={{ base: "none", lg: "lg" }}
+      w={{ base: "full", lg: "16rem" }}
+      h="100vh"
+      bg="white"
+    >
       <Box>
         <Heading as="h1" fontSize="20px" pt="3.5rem" textAlign="center">
           @CRYPTO CURRENCY
