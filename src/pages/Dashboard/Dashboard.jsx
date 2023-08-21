@@ -16,10 +16,12 @@ const Dashboard = () => {
           }}
           gap="6"
         >
-          <GridItem colSpan={{
-            base: 1,
-            xl: 2, 
-          }}>
+          <GridItem
+            colSpan={{
+              base: 1,
+              xl: 2,
+            }}
+          >
             <PortfolioSection />
           </GridItem>
           <GridItem colSpan={1}>
@@ -29,13 +31,22 @@ const Dashboard = () => {
             <Transaction />
           </GridItem>
           <GridItem colSpan={1}>
-            <InfoCard imgUrl="/dot_bg.svg" tag="Loan" text="Learn more about Loans – Keep your Bitcoin, access it’s value without selling it" inverted={false} />
+            <InfoCard
+              imgUrl="/dot_bg.svg"
+              tag="Loan"
+              text="Learn more about Loans – Keep your Bitcoin, access it’s value without selling it"
+              inverted={false}
+            />
           </GridItem>
-          <GridItem  colSpan={1}>
-            <InfoCard imgUrl="/grid_bg.svg" tag="Contact" text="Learn more about our real estate, mortgage, and  corporate account services" inverted={true} />
+          <GridItem colSpan={1}>
+            <InfoCard
+              imgUrl="/grid_bg.svg"
+              tag="Contact"
+              text="Learn more about our real estate, mortgage, and  corporate account services"
+              inverted={true}
+            />
           </GridItem>
         </Grid>
-
       </DashboardLayout>
     </div>
   );
